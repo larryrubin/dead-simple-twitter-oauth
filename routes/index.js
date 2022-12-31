@@ -46,7 +46,7 @@ function logDebugInfo(req) {
   );
 }
 
-router.get("/", function (req, res, next) {
+router.get("/", function (req, res) {
   logDebugInfo(req);
 
   res.render("index", { title: "Dead Simple Twitter OAuth 1.0a" });
