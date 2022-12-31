@@ -53,14 +53,7 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/login", (req, res) => {
-  console.log("\n\n------login-----\n");
-
-  console.log(
-    "Session vars:\naccessToken:",
-    req.session.accessToken,
-    "\naccessSecret:",
-    req.session.accessSecret
-  );
+  logDebugInfo(req);
 
   // Generate a request token and redirect the user to the Twitter authorization page
   client.getOAuthRequestToken((error, requestToken, requestSecret) => {
