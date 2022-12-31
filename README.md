@@ -25,3 +25,5 @@ To start the server:
 # npm run dev
 
 Navigate to http://localhost:3000
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/68a5d9e029714e038eed23ed0f750fb6)](https://www.codacy.com/gh/larryrubin/dead-simple-twitter-oauth/dashboard?utm_source=github.com&utm_medium=referral&utm_content=larryrubin/dead-simple-twitter-oauth&utm_campaign=Badge_Grade)
