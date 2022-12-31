@@ -1,0 +1,13 @@
+# Enter your key and secret values below and then rename this file to .env
+
+# API keys for your app are located at:
+
+# https://developer.twitter.com/en/portal/projects-and-apps
+
+# Note: These keys are for OAuth 1.0a (not for OAuth 2.0)
+
+TWITTER_API_KEY=[your API consumer key]
+TWITTER_API_KEY_SECRET=[your API consumer secret]
+
+# cookie secret
+TWITTER_API_KEY=[generate a random 32 character alpha numeric string]

@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+    a(href="/") Home
+    span  | 
+    a(href="/login") Login
+    span  | 
+    a(href="/logout") Logout
+    span  | 
+    a(href="/messages") Messages
+    span  | 
+    a(href="/revoke") Revoke
+    span  | 
+    a(target="_blank" href="https://venmo.com/?txn=pay&audience=private&recipients=larryrubin&amount=7.77&note=Beer%20Fund%20/%20Dead%20Simple%20Twitter%20OAuth%20") Tip Jar
