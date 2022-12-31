@@ -4,6 +4,8 @@ Dead Simple Twitter Oauth 1.0a
 
 Very minimal Node.js + express authorization app. Uses Twitter's OAuth 1.0a API endpoints.
 
+Instructions:
+
 Create a new Twitter App here: https://developer.twitter.com/en/portal/projects-and-apps
 
 Make note of your API key & secret
