@@ -107,8 +107,6 @@ router.get("/callback", (req, res) => {
 });
 
 router.get("/logout", (req, res) => {
-  logDebugInfo(req);
-
   // Clear the access token and secret from the session
   req.session.accessToken = null;
   req.session.accessSecret = null;
